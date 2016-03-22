@@ -111,12 +111,28 @@ content
 
       
     </div>
+    
     <footer class="article-footer">
-      <a data-url="http://shafee.cn/2016/03/22/websocket/" data-id="cim3adoy80004ikhior76ab2y" class="article-share-link">Share</a>
+      <a data-url="http://shafee.cn/2016/03/22/websocket/" data-id="cim3mbpny0004cghi6t9f1sgx" class="article-share-link">分享</a>
       
       
     </footer>
+
   </div>
+  <div id="code" style="margin-top:50px;margin-bottom:8px;text-align:center;"></div>
+  <p style="text-align:center;">手机阅读</p>
+  <script type="text/javascript">
+    (function() {
+        window.onload = function(){
+          var str = 'http://shafee.cn/2016/03/22/websocket/';
+          $("#code").qrcode({
+              width:128,
+              height:128,
+              text:str
+          });
+        }
+    })();
+  </script>
   
   <section id="comments">
     <!-- 多说评论框 start -->
@@ -141,7 +157,7 @@ content
     
 <nav id="article-nav">
   
-    <a href="/2016/03/22/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/03/23/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
@@ -204,7 +220,7 @@ content
       <ul>
         
           <li>
-            <a href="/2016/03/22/hello-world/">Hello World</a>
+            <a href="/2016/03/23/hello-world/">Hello World</a>
           </li>
         
           <li>
@@ -256,6 +272,9 @@ content
 
 
 <script src="/js/script.js"></script>
+<script src="/js/jquery-1.10.1.min.js"></script>
+<script src="/js/jquery.qrcode.min.js"></script>
+
 
   </div>
 </body>
